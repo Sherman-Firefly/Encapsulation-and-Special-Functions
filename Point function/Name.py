@@ -5,9 +5,10 @@ class person:
         
     def aged(self):
         return self.__name
-    def updaten(self, nname):
-        self.__name=nname
+    def newname(self, newname):
+        self.__name=newname
 
 n=person("Bob", 22)
-n.aged()
-n.updaten("Dave")
+print(n.aged())
+n.newname("Will")
+print(n.newname("Dave"))

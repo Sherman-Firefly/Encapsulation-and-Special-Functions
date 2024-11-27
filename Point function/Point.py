@@ -6,6 +6,6 @@ class point:
     def __str__(self):
         return "{0},{1}".format(self.x,self.y)
     
-p=point(5,5)
+p=point(10,5)
 print(p)
 
